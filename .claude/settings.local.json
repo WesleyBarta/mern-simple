@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(cmd //c \"taskkill /IM node.exe /F\")",
+      "Bash(netstat -ano)",
+      "Bash(npm run *)",
+      "Bash(curl -s -o /dev/null -w \"5173: HTTP %{http_code}\\\\n\" --max-time 3 http://localhost:5173/)",
+      "Bash(curl -s -o /dev/null -w \"5000: HTTP %{http_code}\\\\n\" --max-time 3 http://localhost:5000/)",
+      "Bash(curl -s -o /dev/null -w \"/api via proxy: HTTP %{http_code}\\\\n\" --max-time 3 http://localhost:5173/api/hello)",
+      "Bash(curl -s -o /dev/null -w \"127.0.0.1:5173: HTTP %{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5173/)",
+      "Bash(curl -s -o /dev/null -w \"[::1]:5173:    HTTP %{http_code}\\\\n\" --max-time 3 \"http://[::1]:5173/\")",
+      "Bash(curl -s http://localhost:5000/api/hello)",
+      "Bash(curl -s -o /dev/null -w \"5173:    HTTP %{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5173/)",
+      "Bash(curl -s -o /dev/null -w \"5000:    HTTP %{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5000/)",
+      "Bash(curl -s -o /dev/null -w \"proxy:   HTTP %{http_code}\\\\n\" --max-time 3 http://127.0.0.1:5173/api/hello)",
+      "Bash(npm install *)",
+      "Bash(node --input-type=module)",
+      "Bash(npx vite *)",
+      "WebFetch(domain:minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com)",
+      "Bash(curl -o service1.png \"https://minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com/ccv2%2F2026-06-15%2FMiniMax-M2.7%2F2031603008780906942%2Fbd54306c7b3578a7573babc4e396da9788c35a99e75db242af5c7f4916807701..png?Expires=1781616017&OSSAccessKeyId=LTAI5tCpJNKCf5EkQHSuL9xg&Signature=QpSVBlmaF4Ha%2BV4%2BkcxaoDVh2Tc%3D\")",
+      "Bash(curl -o service2.png \"https://minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com/ccv2%2F2026-06-15%2FMiniMax-M2.7%2F2031603008780906942%2Fc9a6f3546d663e8fe32de6cb4bb75cbd4dd691b3892381ceef00dfbf2a62946b..png?Expires=1781616020&OSSAccessKeyId=LTAI5tCpJNKCf5EkQHSuL9xg&Signature=FTqgH0AY5qBaU%2B2M0dFhYq23gjQ%3D\")",
+      "Bash(curl -o service3.png \"https://minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com/ccv2%2F2026-06-15%2FMiniMax-M2.7%2F2031603008780906942%2F660107c436473bbdf86a485fd6f08732c9a3ac68d93016429460b408b0fee4de..png?Expires=1781616021&OSSAccessKeyId=LTAI5tCpJNKCf5EkQHSuL9xg&Signature=BZISAMxaQIt3yLfKxcacAOFhUoE%3D\")",
+      "Bash(curl -o service4.png \"https://minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com/ccv2%2F2026-06-15%2FMiniMax-M2.7%2F2031603008780906942%2Fe7ea29d6f9aeee8f4c0142e88dc43fec7accb9e3b6126a4ef9cde6b0d61d642c..png?Expires=1781616023&OSSAccessKeyId=LTAI5tCpJNKCf5EkQHSuL9xg&Signature=yNbNGnh1VDQNSIk4UmY9DgW7hZM%3D\")",
+      "Bash(curl -o service5.png \"https://minimax-algeng-chat-tts-us.oss-us-east-1.aliyuncs.com/ccv2%2F2026-06-15%2FMiniMax-M2.7%2F2031603008780906942%2Fa4afc72a35a62915ea511fe7356d2d14e0b5371edaafa7c264b8010567e4991b..png?Expires=1781616025&OSSAccessKeyId=LTAI5tCpJNKCf5EkQHSuL9xg&Signature=EWZRZ7lRvVCilvDorwnSIpOA9LM%3D\")",
+      "Bash(cd /e/2345Downloads/mern-simple/frontend/src && grep -n \"goAbout\\\\|onViewAbout\\\\|About.*action\" App.jsx | head -15)",
+      "Read(//e/e/2345Downloads/mern-simple/frontend/src/**)",
+      "Bash(npm ls *)",
+      "Bash(node router_rewrite.cjs)",
+      "Bash(curl -s http://localhost:5173/api/hello)"
+    ]
+  }
+}
