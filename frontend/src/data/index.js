@@ -1,5 +1,5 @@
 import localHero from '../assets/hero/hero.jpg'
-import { CodeIcon, CloudIcon, CogIcon, BriefcaseIcon, ShieldIcon, RocketIcon } from '../components/Icons'
+import { CodeIcon, CloudIcon, CogIcon, BriefcaseIcon, ShieldIcon, RocketIcon, ZapIcon, GlobeIcon, HeartIcon } from '../components/Icons'
 import localAbout1 from '../assets/about/about1.jpg'
 import localAbout2 from '../assets/about/about2.jpg'
 import localAbout3 from '../assets/about/about3.jpg'
@@ -137,10 +137,10 @@ export const milestones = [
 ]
 
 export const culture = [
-  { title: 'Remote-First Culture', desc: 'Work from anywhere. We trust our team to deliver great results on their own terms.' },
-  { title: 'People Over Process', desc: 'We invest in our people with competitive salaries, health benefits, and learning budgets.' },
-  { title: 'Ship Fast, Learn Faster', desc: 'We release early, gather feedback, and iterate. Perfection is the enemy of progress.' },
-  { title: 'Excellence by Default', desc: 'We do not cut corners. Clean code, thorough testing, and detailed documentation are non-negotiable.' },
+  { Icon: HeartIcon, title: 'Remote-First Culture', desc: 'Work from anywhere. We trust our team to deliver great results on their own terms.' },
+  { Icon: HeartIcon, title: 'People Over Process', desc: 'We invest in our people with competitive salaries, health benefits, and learning budgets.' },
+  { Icon: RocketIcon, title: 'Ship Fast, Learn Faster', desc: 'We release early, gather feedback, and iterate. Perfection is the enemy of progress.' },
+  { Icon: AwardIcon, title: 'Excellence by Default', desc: 'We do not cut corners. Clean code, thorough testing, and detailed documentation are non-negotiable.' },
 ]
 
 export const offices = [
@@ -151,10 +151,10 @@ export const offices = [
 ]
 
 export const aboutValues = [
-  { title: 'Speed', desc: '2-week sprint cycles. You see progress every two weeks — not every six months.' },
-  { title: 'Transparency', desc: 'Real-time dashboards, weekly reports, and direct access to your engineering team.' },
-  { title: 'Flexibility', desc: 'Scale up or down at any time. No lock-in contracts or hidden staffing fees.' },
-  { title: 'Ownership', desc: 'We treat your product like our own. Long-term partnerships, not one-off projects.' },
+  { Icon: ZapIcon, iconColor: 'primary', title: 'Speed', desc: '2-week sprint cycles. You see progress every two weeks — not every six months.' },
+  { Icon: ShieldIcon, iconColor: 'accent', title: 'Transparency', desc: 'Real-time dashboards, weekly reports, and direct access to your engineering team.' },
+  { Icon: GlobeIcon, iconColor: 'cyan', title: 'Flexibility', desc: 'Scale up or down at any time. No lock-in contracts or hidden staffing fees.' },
+  { Icon: HeartIcon, iconColor: 'primary', title: 'Ownership', desc: 'We treat your product like our own. Long-term partnerships, not one-off projects.' },
 ]
 
 export const aboutStats = [
