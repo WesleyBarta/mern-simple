@@ -26,7 +26,11 @@
       "Read(//e/e/2345Downloads/mern-simple/frontend/src/**)",
       "Bash(npm ls *)",
       "Bash(node router_rewrite.cjs)",
-      "Bash(curl -s http://localhost:5173/api/hello)"
+      "Bash(curl -s http://localhost:5173/api/hello)",
+      "Bash(curl -s http://localhost:5000/api/blogs)",
+      "Bash(curl -s http://localhost:5000/api/services)",
+      "Bash(curl -s http://localhost:5000/api/projects)",
+      "Bash(curl -s http://localhost:5000/api/case-studies)"
     ]
   }
 }
